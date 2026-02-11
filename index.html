@@ -7,10 +7,22 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="background1">
+    <div class="background2">
     <h1>my 1st page</h1>
     </div>
-    <div class="background2">
+    <div class="background1">
+    <button class="btn">reaction test</button>
+    <script>
+      const btn = document.getElementById('btn')
+
+   
+      btn.onmouseleave = function() {
+       this.style.backgroundColor = '#4285f4';
+       this.innerText = '点击我试试！'};
+      
+      
+    </script>  
+
     </div>
   </body>
 </html>
